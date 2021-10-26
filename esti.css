@@ -128,7 +128,7 @@
 		}
 	
 		
-		@media only screen and (max-width: 580px){
+		@media only screen and (max-width: 540px){
 		table {
   			font-family: 'Open Sans Condensed', sans-serif;
   			border-collapse: collapse;
