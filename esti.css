@@ -129,9 +129,16 @@
 	
 		
 		@media only screen and (max-width: 540px){
+		.center{
+			text-align: center;
+
+			font-family: 'Titillium Web', sans-serif;
+			padding: 35px;
+			margin: 50px;
+  			}
 		h2{
 			font-family: 'Open Sans Condensed', sans-serif;
-			margin: 50px;
+			text-align: center;
 		}	
 		.parrafo{
   		 	background-color:  #6C7077;
