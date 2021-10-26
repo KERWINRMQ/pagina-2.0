@@ -192,15 +192,16 @@
         	max-height: 500px;
     	}
     	.video {
-    		width: 400px;
-    		height: 400px;
+    		width: 300px;
+    		height: 300px;
+    		text-align:center;
+    		    		float: center;
 		}
 		.logo {
    			background: url(logoo.png) no-repeat 20% 90%;
    			background-size: contain;
-    		width: 200px;
+    		width: 100px;
     		height: 70px;
-    		float: center;
 		}
 	}
 		
