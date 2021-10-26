@@ -88,12 +88,12 @@
 
 		}
 		header {
-			 display: flex;
-    width: 80%;
-    height: 10vh;
-    margin: auto;
-    align-items: center;
-    font-family: Monaco;
+			display: flex;
+    		width: 80%;
+    		height: 10vh;
+   			margin: auto;
+    		align-items: center;
+    		font-family: Monaco;
 		}
 		table {
   			font-family: 'Open Sans Condensed', sans-serif;
@@ -128,7 +128,19 @@
 		}
 	
 		
-		@media only screen and (max-width: 600px){
+		@media only screen and (max-width: 540px){
+		h2{
+			font-family: 'Open Sans Condensed', sans-serif;
+			margin: 50px;
+		}	
+		.parrafo{
+  		 	background-color:  #6C7077;
+		 	color: #F6F7F8;
+ 		 	margin: 20px;
+  		 	padding: 10px;
+  		 	font-size: 15px;
+   			text-align: justify;
+   		}
 		table {
   			font-family: 'Open Sans Condensed', sans-serif;
   			border-collapse: collapse;
@@ -156,7 +168,7 @@
 		}	
 
         nav {
-        overflow: visible;
+        	overflow: visible;
     	}
     	.menu {
         	width: 100%;
@@ -167,28 +179,28 @@
         	max-height: 0;
     	}
     	.menu a{
-        display: block;
-        text-align: center;
-        padding: 10px;
-        margin: 0;
-    }
-    .btn {
-        display: block;
-        cursor: pointer;
-    }
-    .show {
-        max-height: 500px;
-    }
-    .video {
-    width: 400px;
-    height: 400px;
-}
-.logo {
+        	display: block;
+        	text-align: center;
+        	padding: 10px;
+        	margin: 0;
+    	}
+    	.btn {
+        	display: block;
+        	cursor: pointer;
+    	}
+    	.show {
+        	max-height: 500px;
+    	}
+    	.video {
+    		width: 400px;
+    		height: 400px;
+		}
+		.logo {
    			background: url(logoo.png) no-repeat 20% 90%;
    			background-size: contain;
     		width: 200px;
     		height: 70px;
     		float: center;
 		}
-}
+	}
 		
